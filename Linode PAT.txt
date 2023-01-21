@@ -1,0 +1,15 @@
+
+
+the listed below api keys were created 1/3/2023
+
+wild card certificate for *.blackdiamond-tech.ca                4495e09c2cc6f836ea4b6e15675508aaf74bed348e4d00df90988b122fea4ec0
+
+pfsense certificate for janus.blackdiamond-tech.ca              131e0dace5e54ee773f23907d37001533fcfb246b90b2475d521be4176210c06
+pfsense dynamic dns for janus.blackdiamond-tech.ca              91d1a66ab3003da889917f097805653a4960c95ab5d70182f8d254f4a6b74a43
+
+nextcloud certificate for nextcloud.blackdiamond-tech.ca        9cfb03db805d93ed5182761f9d501601f95a5945553dc57a7e09006ad1bc0b36
+nextcloud dynamic dns for nextcloud.blackdiamond-tech.ca        c2cd4c247c8c4248664be66807e886d94e98677d6b2e1e47c277c167aaab467a
+
+
+
+
