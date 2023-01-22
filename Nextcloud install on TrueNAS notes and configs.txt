@@ -1,13 +1,13 @@
-Setting up Nextcloud on TrueNAS
+Setting up Nextcloud on TrueNAS.
 
 There are a couple files that need to be configured for nextcloud to work on TrueNAS.
 
-Go to the Nextcloud jails shell and configure the config.php file
+Go to the Nextcloud jails shell and configure the config.php file.
 
 # cd /usr/local/www/nextcloud/config
 # edit config.php
 
-Add the folowing to the file config.php trusted domains '192.168.2.34' and 'nextcloud.blackdiamond-tech.ca' as seprate lines
+Add the folowing to the file config.php trusted domains '192.168.2.34' and 'nextcloud.blackdiamond-tech.ca' as seprate lines.
 
 'trusted_domains' =>
 array (
@@ -17,13 +17,13 @@ array (
   3 => 'nextcloud.blackdiamond-tech.ca',
 ),
 
-Then add at the end of the config.php file for the default phone region
+Then add at the end of the config.php file for the default phone region.
 
 'default_phone_region' => 'CA'
 
 
 
-Next go to the Nextcloud jails shell and configure the php.truenas.ini file
+Next go to the Nextcloud jails shell and configure the php.truenas.ini file.
 
 # cd /usr/local/etc/php
 # edit php.truenas.ini
