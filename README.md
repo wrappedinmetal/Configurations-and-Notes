@@ -1,3 +1,3 @@
-## Configurations and Notes
+# Configurations and Notes
 
-This is for storing various Configuration files and notes
+This is for storing various Configuration files and notes for linux and other software\.
