@@ -1,0 +1,9 @@
+To make a SSH key open a terminal and enter at the command line.
+
+$ ssh-keygen name the file as needed, enter a passphrase if desired.
+
+To transfer the key to the desired computer enter at the command line.
+
+$ ssh-copy-id -i "file path that the key resides" "name@ip address of the computer"
+
+$ ssh-copy-id -i ~/.ssh/deskpi_rsa.pub robertp@192.168.2.29

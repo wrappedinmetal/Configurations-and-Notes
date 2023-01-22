@@ -1,0 +1,40 @@
+ 
+Check to see if ethtool is installed, if it is not installed run the command below.
+
+$ sudo apt install ethtool -y
+
+
+Check what interface WOL is to work on by running the command below.
+
+$ ip a
+
+
+Enable WOL on the NIC by running the command below. NICNAME is what the interface name is from the above command.
+
+$ sudo ethtool -s NICNAME wol -g
+
+
+Install wakeonlan so both Linux computers ans send magic packets.
+
+$ sudo apt install wakeonlan -y
+
+
+Check to see if wake on lan works by running the command below. MACADDRESS being the MAC addres from the interface that this is going to work on.
+
+$ sudo wakeonlan MACADDRESS
+
+
+Making wake on lan persistent follow the below instructions.
+
+Make a configuration file (see the pre-made configuration file) Copy and paste the configurations and change the interface name to the interface that this is going to work on.
+
+$ sudo nano /etc/systemd/system/wol.service
+
+Restart the systemd service aware of the new service by the following below.
+
+$ sudo systemctl daemon-reload
+
+$ sudo systemctl enable wol.service
+
+$ sudo systemctl start wol.service
+
