@@ -1,6 +1,6 @@
 Setting up Nextcloud on TrueNAS
 
-There are a couple files that need to be
+There are a couple files that need to be configured for nextcloud to work on TrueNAS.
 
 Go to the Nextcloud jails shell and configure the config.php file
 
